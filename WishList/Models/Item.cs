@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
-using System.ComponentModel.DataAnnotations;
 
 namespace WishList.Models
 {
@@ -10,7 +10,7 @@ namespace WishList.Models
     {
         public int Id;
 
-       [MaxLength(50),Required]
+        [MaxLength(50),Required]
         public string Description;
     }
 }
